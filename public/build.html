@@ -1,14 +1,13 @@
 <head>
   <title>Meteor and Polymer Sandbox</title>
-  <script src="public/bower_components/webcomponentsjs/webcomponents.js"></script>
-  <link rel="import" href="public/bower_components/polymer/polymer.html" />
-  <link rel="import" href="public/bower_components/core-input/core-input.html">
+  <script src="/public/bower_components/platform/platform.js"></script>
+  <link rel="import" href="/public/bower_components/core-input/core-input.html">
 </head>
 <body>
   <h1>Welcome to Meteor and Polymer!</h1>
   <!-- html code goes here -->
-  {{> hello}}
-  <h2>Core & Paper Elements</h2>
+  {{&gt; hello}}
+  <h2>Core &amp; Paper Elements</h2>
     <ul>
       <li><strong>Basic Text Input : Core</strong>
         <core-input id="single" placeholder="Type something..."></core-input>
