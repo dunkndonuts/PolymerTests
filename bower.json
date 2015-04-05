@@ -1,0 +1,26 @@
+{
+  "name": "polymertest",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dunkndonuts/PolymerTests",
+  "authors": [
+    "Roger <roger.reeder@gmail.com>"
+  ],
+  "description": "Polymer Testing",
+  "main": "polymertest.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-component-page": "Polymer/core-component-page#^0.5",
+    "polymer": "Polymer/polymer#~0.8.0"
+  },
+  "resolutions": {
+    "polymer": "~0.8.0",
+    "webcomponentsjs": "^0.6.0"
+  }
+}
