@@ -20,3 +20,5 @@ The Cloud9 IDE team
 ## Support & Documentation
 
 Meteor documentation can be found at http://docs.meteor.com/
+# PolymerTests
+Use for interaction with Cloud9 IDE to experiment with Polymer
